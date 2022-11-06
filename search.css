@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: rgba(8, 8, 8, 0.932);
+}
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     height: 100%;
+     color: white;
+     background-color: black;
+}
+.logo img{
+    height: 89px;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+input{
+    /* margin: 65px 0 0 56px; */
+    margin: 60px 3vw;
+    width: 90vw;
+    height: 50px;
+    border-radius: 10px;
+}
+input::placeholder{
+    height: 48px;
+    color: gray;
+    margin-left: 10px;
+    padding-left: 20px;
+    font-size: 23px;
+}
+input[type=text]{
+    font-size: 23px;
+    padding-left: 20px;
+}
+section{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.categories{
+    display: inline-flex;
+    /* margin: 25px 0 0 0; */
+    padding-left: 56px;
+    height: auto;
+    width: 25vw;
+   
+    
+}
+p{
+    color: white;
+    font-size: 30px;
+    margin: 75px 0 0 66px;
+}
+.browse{
+    margin: 25px 0 0 56px;
+    display: inline-flex;
+}
+.second{
+     margin: 25px 0 0 56px ;
+     display: inline-flex;
+}
+    

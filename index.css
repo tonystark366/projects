@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: rgb(15, 15, 15);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+     display: flex;
+     align-items: center;
+     list-style-type: none;
+     height: 89px;
+     color: white;
+     background-color: black;
+}
+.logo img{ 
+    height: 89px;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.ad img{
+    height: 70vh;
+    width: 80vw;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin: 34px 0 0 30px;
+}
+.LnT{
+    margin: 23px 0 0 55px;
+    color: white;
+    font-size: 23px;
+    display: inline-flex;
+}
+.TB{
+    margin: 34px 0 0 55px;
+    display: inline-flex;
+}
+.DM{
+    margin: 37px 0 0 55px;
+    display: inline-flex;
+}
+.bts{
+    margin: 20px 0 0 55px;
+    display: inline-flex;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    margin-top: 123px;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
